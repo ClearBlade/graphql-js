@@ -200,7 +200,9 @@ export class GraphQLError extends Error {
       Error.captureStackTrace(this, GraphQLError);
     } else {
       Object.defineProperty(this, 'stack', {
-        value: Error().stack,
+        value: message,
+        // can't use Error().stack because this class inherits from the built-in Error and Babel is having trouble transpiling that for Duktape
+        // value: Error().stack,
         writable: true,
         configurable: true,
       });
