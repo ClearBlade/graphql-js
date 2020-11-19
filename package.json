@@ -72,7 +72,7 @@
     "typescript": "3.9.6"
   },
   "exports": {
-    "./": "./npmDist/",
-    "./execution": "./npmDist/execution/"
+    ".": "./npmDist/index.js",
+    "./execution/values": "./npmDist/execution/values.js"
   }
 }
