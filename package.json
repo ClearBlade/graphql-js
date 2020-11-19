@@ -73,6 +73,8 @@
   },
   "exports": {
     ".": "./npmDist/index.js",
-    "./execution/values": "./npmDist/execution/values.js"
+    "./execution/values": "./npmDist/execution/values.js",
+    "./type/introspection": "./npmDist/type/introspection.js",
+    "./validation/rules/ExecutableDefinitions": "./npmDist/validation/rules/ExecutableDefinitions.js"
   }
 }
