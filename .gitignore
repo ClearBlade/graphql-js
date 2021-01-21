@@ -8,7 +8,6 @@
 .eslintcache
 node_modules
 coverage
-npmDist
 denoDist
 benchmarkDist
 integrationTmp
